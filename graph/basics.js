@@ -17,7 +17,6 @@ class Graph {
         if(!this.graph[v]) this.graph[v] = []
 
         this.graph[u].push(v)
-        this.graph[v].push(u)
     }
 
     printGraph(){
@@ -66,3 +65,6 @@ console.log(graph)
 // graph.printGraph()
 
 graph.bfsTraversal(0)
+
+
+export default Graph
